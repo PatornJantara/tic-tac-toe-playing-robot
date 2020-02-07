@@ -14,7 +14,7 @@ Requirements
 
 - Robotic arm configuration
   - 5 DOF ( joint 1,2 are drive by DC motor and Others are driven by Servo motor)
-
+![DH](https://user-images.githubusercontent.com/56642026/74012906-e7832680-49bd-11ea-9a3e-02688e06c226.PNG)
 
 
 - Overall system
