@@ -7,8 +7,7 @@ Requirements
   - Python
   - Arduino
 - Hardware
-
-- Arduino Mega x 2
+  - Arduino Mega x 2
   - BTS 7960
   - Webcam x1
   - Powersupply 5v / 24 v
