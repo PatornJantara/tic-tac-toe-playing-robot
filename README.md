@@ -1,6 +1,6 @@
 # Tic-Tac-Toe-Playing-Robot
 ## An automatic tic tac toe playing robotic arm
-![alt text](https://drive.google.com/file/d/1yrf8xU4mUpIAqjrlPP5hcFtp_RU5xsfe/view)
+[To read full project click here](https://drive.google.com/file/d/1yrf8xU4mUpIAqjrlPP5hcFtp_RU5xsfe/view)
 
 Requirements
 
