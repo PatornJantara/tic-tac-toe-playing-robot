@@ -13,7 +13,7 @@ Requirements
   - Powersupply 5v / 24 v
 
 - Robotic arm configuration
-5 DOF Robotic arm ( joint 1,2 are drive by DC motor and Others are driven by Servo motor)
+  - 5 DOF ( joint 1,2 are drive by DC motor and Others are driven by Servo motor)
 
 
 
