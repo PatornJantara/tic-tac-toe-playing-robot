@@ -20,3 +20,5 @@ Requirements
 
 - Overall system
 ![RoboticArm](https://user-images.githubusercontent.com/56642026/74011917-983bf680-49bb-11ea-90d7-d1805aa0ad88.PNG)
+- Wiring
+![wiring](https://user-images.githubusercontent.com/56642026/74014263-e0114c80-49c0-11ea-90d7-85c58f423b53.PNG)
