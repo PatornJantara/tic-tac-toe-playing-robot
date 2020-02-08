@@ -15,13 +15,10 @@ Requirements<br /><br />
 <br /><br />
 - Robotic arm configuration 
 <br />
-  - 5 DOF ( joint 1,2 are drive by DC motor and Others are driven by Servo motor)
-<br />
+  - 5 DOF ( joint 1,2 are drive by DC motor and Others are driven by Servo motor)<br />
 ![DH](https://user-images.githubusercontent.com/56642026/74012906-e7832680-49bd-11ea-9a3e-02688e06c226.PNG)
 [The robotic arm kinematics description](https://github.com/PatornJantara/robot-manipulator-kinematics-sim)<br />
 - Overall system
-<br />
 ![RoboticArm](https://user-images.githubusercontent.com/56642026/74011917-983bf680-49bb-11ea-90d7-d1805aa0ad88.PNG)<br />
-- Wiring
-<br />
+- Wiring<br />
 ![wiring](https://user-images.githubusercontent.com/56642026/74014263-e0114c80-49c0-11ea-90d7-85c58f423b53.PNG)
