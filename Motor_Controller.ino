@@ -1,32 +1,32 @@
 // slave Arduino recieve base and joint 2 angle for control DC Motor 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-byte angle_base_DI_1 = 22;     // to acquire interger from master arduino (0-1023 potentiometer1 value) use 10 for dc motor 1
-byte angle_base_DI_2 = 24;
-byte angle_base_DI_3 = 26;
-byte angle_base_DI_4 = 28;
-byte angle_base_DI_5 = 30;
-byte angle_base_DI_6 = 32;
-byte angle_base_DI_7 = 34;
-byte angle_base_DI_8 = 36;
-byte angle_base_DI_9 = 38;
-byte angle_base_DI_10 = 40;
+bool angle_base_DI_1 = 22;     // to acquire interger from master arduino (0-1023 potentiometer1 value) use 10 for dc motor 1
+bool angle_base_DI_2 = 24;
+bool angle_base_DI_3 = 26;
+bool angle_base_DI_4 = 28;
+bool angle_base_DI_5 = 30;
+bool angle_base_DI_6 = 32;
+bool angle_base_DI_7 = 34;
+bool angle_base_DI_8 = 36;
+bool angle_base_DI_9 = 38;
+bool angle_base_DI_10 = 40;
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-byte angle_joint2_DI_1 = 23;  // to acquire interger from master arduino (0-1023 potentiometer2 value) use 10 for dc motor 2
-byte angle_joint2_DI_2 = 25;
-byte angle_joint2_DI_3 = 27;
-byte angle_joint2_DI_4 = 29;
-byte angle_joint2_DI_5 = 31;
-byte angle_joint2_DI_6 = 33;
-byte angle_joint2_DI_7 = 35;
-byte angle_joint2_DI_8 = 37;
-byte angle_joint2_DI_9 = 39;
-byte angle_joint2_DI_10 = 41;
+bool angle_joint2_DI_1 = 23;  // to acquire interger from master arduino (0-1023 potentiometer2 value) use 10 for dc motor 2
+bool angle_joint2_DI_2 = 25;
+bool angle_joint2_DI_3 = 27;
+bool angle_joint2_DI_4 = 29;
+bool angle_joint2_DI_5 = 31;
+bool angle_joint2_DI_6 = 33;
+bool angle_joint2_DI_7 = 35;
+bool angle_joint2_DI_8 = 37;
+bool angle_joint2_DI_9 = 39;
+bool angle_joint2_DI_10 = 41;
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-byte pwmPin_base_left = 9;   // set PWM pin of BTS7960 dc motor driver
-byte pwmPin_base_right = 8;
-byte pwmPin_joint2_up = 10;
-byte pwmPin_joint2_down = 11;
+bool pwmPin_base_left = 9;   // set PWM pin of BTS7960 dc motor driver
+bool pwmPin_base_right = 8;
+bool pwmPin_joint2_up = 10;
+bool pwmPin_joint2_down = 11;
 
 int currentAngle_base;      //  value from reading potentiometer in base
 int currentAngle_joint2;    //  value from reading potentiometer in joint 2
@@ -34,28 +34,28 @@ int currentAngle_joint2;    //  value from reading potentiometer in joint 2
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 int requiredAngle_base;     // to convert digital input to angle value of base use 10 pin
-byte requiredAngle_base_1;
-byte requiredAngle_base_2;
-byte requiredAngle_base_3;
-byte requiredAngle_base_4;
-byte requiredAngle_base_5;
-byte requiredAngle_base_6;
-byte requiredAngle_base_7;
-byte requiredAngle_base_8;
-byte requiredAngle_base_9;
-byte requiredAngle_base_10;
+bool requiredAngle_base_1;
+bool requiredAngle_base_2;
+bool requiredAngle_base_3;
+bool requiredAngle_base_4;
+bool requiredAngle_base_5;
+bool requiredAngle_base_6;
+bool requiredAngle_base_7;
+bool requiredAngle_base_8;
+bool requiredAngle_base_9;
+bool requiredAngle_base_10;
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 int requiredAngle_joint2;   // to convert digital input to angle value of joint 2 use 10 pin
-byte requiredAngle_joint2_1;
-byte requiredAngle_joint2_2;
-byte requiredAngle_joint2_3;
-byte requiredAngle_joint2_4;
-byte requiredAngle_joint2_5;
-byte requiredAngle_joint2_6;
-byte requiredAngle_joint2_7;
-byte requiredAngle_joint2_8;
-byte requiredAngle_joint2_9;
-byte requiredAngle_joint2_10;
+bool requiredAngle_joint2_1;
+bool requiredAngle_joint2_2;
+bool requiredAngle_joint2_3;
+bool requiredAngle_joint2_4;
+bool requiredAngle_joint2_5;
+bool requiredAngle_joint2_6;
+bool requiredAngle_joint2_7;
+bool requiredAngle_joint2_8;
+bool requiredAngle_joint2_9;
+bool requiredAngle_joint2_10;
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 int errorAmount_base;     // different of current angle and required angle of base
 int errorAmount_joint2;   // different of current angle and required angle of joint 2
