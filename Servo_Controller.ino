@@ -16,59 +16,59 @@ Servo gripper;
 
 // integer to bit of base angle      
 int base_angle_DO = 470 ;
-byte angle_base_DO_1_write;
-byte angle_base_DO_2_write;
-byte angle_base_DO_3_write;
-byte angle_base_DO_4_write;
-byte angle_base_DO_5_write;
-byte angle_base_DO_6_write;
-byte angle_base_DO_7_write;
-byte angle_base_DO_8_write;
-byte angle_base_DO_9_write;
-byte angle_base_DO_10_write;
+bool angle_base_DO_1_write;
+bool angle_base_DO_2_write;
+bool angle_base_DO_3_write;
+bool angle_base_DO_4_write;
+bool angle_base_DO_5_write;
+bool angle_base_DO_6_write;
+bool angle_base_DO_7_write;
+bool angle_base_DO_8_write;
+bool angle_base_DO_9_write;
+bool angle_base_DO_10_write;
 //---------------------------------------------------------------------------------------------------------------------------------
 
-// Pin which use to send base angle value
-byte angle_base_DO_1 = 22;
-byte angle_base_DO_2 = 24;
-byte angle_base_DO_3 = 26;
-byte angle_base_DO_4 = 28;
-byte angle_base_DO_5 = 30;
-byte angle_base_DO_6 = 32;
-byte angle_base_DO_7 = 34;
-byte angle_base_DO_8 = 36;
-byte angle_base_DO_9 = 38;
-byte angle_base_DO_10 = 40;
+// Pin which is used to send base angle value
+bool angle_base_DO_1 = 22;
+bool angle_base_DO_2 = 24;
+bool angle_base_DO_3 = 26;
+bool angle_base_DO_4 = 28;
+bool angle_base_DO_5 = 30;
+bool angle_base_DO_6 = 32;
+bool angle_base_DO_7 = 34;
+bool angle_base_DO_8 = 36;
+bool angle_base_DO_9 = 38;
+bool angle_base_DO_10 = 40;
 //---------------------------------------------------------------------------------------------------------------------------------
 
 //integer to bit of joint 2 angle
 
 int angle_joint2_DO = 780 ;
-byte angle_joint2_DO_1_write;
-byte angle_joint2_DO_2_write;
-byte angle_joint2_DO_3_write;
-byte angle_joint2_DO_4_write;
-byte angle_joint2_DO_5_write;
-byte angle_joint2_DO_6_write;
-byte angle_joint2_DO_7_write;
-byte angle_joint2_DO_8_write;
-byte angle_joint2_DO_9_write;
-byte angle_joint2_DO_10_write;
+bool angle_joint2_DO_1_write;
+bool angle_joint2_DO_2_write;
+bool angle_joint2_DO_3_write;
+bool angle_joint2_DO_4_write;
+bool angle_joint2_DO_5_write;
+bool angle_joint2_DO_6_write;
+bool angle_joint2_DO_7_write;
+bool angle_joint2_DO_8_write;
+bool angle_joint2_DO_9_write;
+bool angle_joint2_DO_10_write;
 
 //---------------------------------------------------------------------------------------------------------------------------------
 
-// Pin which use to send joint 2 angle value
+// Pin which is used to send joint 2 angle value
 
-byte angle_joint2_DO_1 = 23;
-byte angle_joint2_DO_2 = 25;
-byte angle_joint2_DO_3 = 27;
-byte angle_joint2_DO_4 = 29;
-byte angle_joint2_DO_5 = 31;
-byte angle_joint2_DO_6 = 33;
-byte angle_joint2_DO_7 = 35;
-byte angle_joint2_DO_8 = 37;
-byte angle_joint2_DO_9 = 39;
-byte angle_joint2_DO_10 = 41;
+bool angle_joint2_DO_1 = 23;
+bool angle_joint2_DO_2 = 25;
+bool angle_joint2_DO_3 = 27;
+bool angle_joint2_DO_4 = 29;
+bool angle_joint2_DO_5 = 31;
+bool angle_joint2_DO_6 = 33;
+bool angle_joint2_DO_7 = 35;
+bool angle_joint2_DO_8 = 37;
+bool angle_joint2_DO_9 = 39;
+bool angle_joint2_DO_10 = 41;
 
  //---------------------------------------------------------------------------------------------------------------------------------
 void setup()
